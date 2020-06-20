@@ -44,9 +44,28 @@
 
         <!-- 注册表单 -->
         <div class="reg-box">
-            <a href="javascript:;" id="link-login">已有帐号，立即登录</a>
+            <form class="layui-form" action="">
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-username"></i>
+                    <input type="text" name="username" required lay-verify="required" placeholder="你叫啥啊"
+                        autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <input type="password" name="password" required lay-verify="required" placeholder="你密码多少啊"
+                        autocomplete="off" class="layui-input" id="reg-password">
+                </div>
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <input type="password" name="password" required lay-verify="required" placeholder="我再问一遍，你密码多少啊"
+                        autocomplete="off" class="layui-input" id="reg-repassword">
+                </div>
+                <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="formDemo" id="btn-reg">注册</button>
+                <div class="layui-form-item links">
+                    <a href="javascript:;" id="link-login">已有帐号，立即登录</a>
+                </div>
+            </form>
         </div>
-
     </div>
 </body>
 

@@ -7,4 +7,9 @@ $(function () {
         $('.reg-box').hide()
         $('.login-box').show()
     })
+    $('#btn-reg').on('click', function () {
+        if ($('#reg-password').val() !== $('#reg-repassword').val()) {
+            return alert('小老弟，你这俩密码不太对啊')
+        }
+    })
 })
