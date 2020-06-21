@@ -8,7 +8,7 @@ $(function () {
         $('.login-box').show()
     })
     $('#btn-reg').on('click', function (e) {
-
+        console.log('ok')
         if ($('#reg-password').val() !== $('#reg-repassword').val()) {
             return alert('小老弟，你这俩密码不太对啊')
         }
