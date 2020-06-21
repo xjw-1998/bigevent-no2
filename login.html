@@ -31,7 +31,7 @@
                 </div>
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" name="password" required lay-verify="required" placeholder="你密码多少啊"
+                    <input type="password" name="password" required lay-verify="required|pwd" placeholder="你密码多少啊"
                         autocomplete="off" class="layui-input">
                 </div>
                 <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="formDemo">登录</button>
@@ -52,12 +52,12 @@
                 </div>
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" name="password" required lay-verify="required" placeholder="你密码多少啊"
+                    <input type="password" name="password" required lay-verify="required|pwd" placeholder="你密码多少啊"
                         autocomplete="off" class="layui-input" id="reg-password">
                 </div>
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" name="password" required lay-verify="required" placeholder="我再问一遍，你密码多少啊"
+                    <input type="password" name="password" required lay-verify="required|pwd" placeholder="我再问一遍，你密码多少啊"
                         autocomplete="off" class="layui-input" id="reg-repassword">
                 </div>
                 <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="formDemo" id="btn-reg">注册</button>
