@@ -24,11 +24,13 @@
         <!-- 登陆表单 -->
         <div class="login-box">
             <form class="layui-form" action="">
+                <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
                     <input type="text" name="username" required lay-verify="required" placeholder="你叫啥啊"
                         autocomplete="off" class="layui-input">
                 </div>
+                <!-- 密码框 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
                     <input type="password" name="password" required lay-verify="required|pwd" placeholder="你密码多少啊"
@@ -45,20 +47,23 @@
         <!-- 注册表单 -->
         <div class="reg-box">
             <form class="layui-form" action="">
+                <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
                     <input type="text" name="username" required lay-verify="required" placeholder="你叫啥啊"
                         autocomplete="off" class="layui-input">
                 </div>
+                <!-- 密码框 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
                     <input type="password" name="password" required lay-verify="required|pwd" placeholder="你密码多少啊"
                         autocomplete="off" class="layui-input" id="reg-password">
                 </div>
+                <!-- 确认密码框 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" name="password" required lay-verify="required|pwd" placeholder="我再问一遍，你密码多少啊"
-                        autocomplete="off" class="layui-input" id="reg-repassword">
+                    <input type="password" name="repassword" required lay-verify="required|pwd|repwd"
+                        placeholder="我再问一遍，你密码多少啊" autocomplete="off" class="layui-input" id="reg-repassword">
                 </div>
                 <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="formDemo" id="btn-reg">注册</button>
                 <div class="layui-form-item links">
