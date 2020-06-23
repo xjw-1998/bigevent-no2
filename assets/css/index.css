@@ -17,3 +17,21 @@ iframe{
 a{
   transition: none !important;
 }
+.userinfo{
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 12px;
+}
+.layui-nav .userinfo{
+  border-bottom: 1px solid #282b33;
+}
+#welcome{
+  user-select: none;
+}
+.text-avatar{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #009688;
+}
